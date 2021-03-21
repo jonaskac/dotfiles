@@ -1,30 +1,25 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" GENERAL
+" BASIC
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Sets how many lines of history for VIM to remember
-set history=5
-
-" Enable filetype plugins
-filetype plugin on
-filetype indent on
-
-" Refresh file when a file is changed from the outside
-set autoread
-au FocusGained,BufEnter * checktime
 
 " Change the leader to ","
 let mapleader = ","
 
+" Line numbers
+set relativenumber 
+
+" Sets how many lines of history for VIM to remember
+set history=500
 
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" MAPPINGS
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-source vim/helpers.vim
-source vim/mapping.vim 
-source vim/files.vim
-source vim/ignore.vim
-source vim/moving.vim
-source vim/ui.vim
-source vim/spelling.vim
+""""""""""" COMMAND LINE NAVIGATION
+cnoremap <C-A>  <Home>
+cnoremap <C-E>  <End>
+cnoremap <C-K>  <C-U>
+
+cnoremap <C-P>  <Up>
+cnoremap <C-N>  <Down>
+
+
+
+

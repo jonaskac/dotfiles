@@ -25,6 +25,7 @@ source vim/base/windows.vim
 
 " Searching
 source vim/searching/index.vim
+source vim/searching/fzf.vim
 
 " UI
 source vim/ui/index.vim

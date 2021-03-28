@@ -14,6 +14,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
         brew install fzf
         brew install ripgrep
         brew install jesseduffield/lazygit/lazygit
+        # TODO : Add installation of oh-my-zsh
 elif [[ "$OSTYPE" == "cygwin" ]]; then
     echo "Installing cygwing dependencies"
         # TODO: POSIX compatibility layer and Linux environment emulation for Windows

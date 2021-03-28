@@ -4,7 +4,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Returns true if paste mode is enabled
-function! HasPaste()
+function HasPaste()
     if &paste
         return 'PASTE MODE  '
     endif
@@ -13,7 +13,7 @@ endfunction
 
 " Don't close window, when deleting a buffer
 command! Bclose call <SID>BufcloseCloseIt()
-function! <SID>BufcloseCloseIt()
+function <SID>BufcloseCloseIt()
     let l:currentBufNum = bufnr("%")
     let l:alternateBufNum = bufnr("#")
 
@@ -32,7 +32,7 @@ function! <SID>BufcloseCloseIt()
     endif
 endfunction
 
-function! CmdLine(str)
+function CmdLine(str)
     call feedkeys(":" . a:str)
 endfunction 
 
@@ -54,7 +54,7 @@ function! VisualSelection(direction, extra_filter) range
 endfunction
 
 " Delete trailing white space on save, useful for some filetypes ;)
-fun! CleanExtraSpaces()
+function CleanExtraSpaces()
     let save_cursor = getpos(".")
     let old_query = getreg('/')
     silent! %s/\s\+$//e

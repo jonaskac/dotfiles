@@ -1,12 +1,12 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " BASIC
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
 " Change the leader to ","
 let mapleader = ","
 
 " Line numbers
-set relativenumber 
+set relativenumber
+set number
 
 " Sets how many lines of history for VIM to remember
 set history=500
@@ -19,7 +19,4 @@ cnoremap <C-K>  <C-U>
 
 cnoremap <C-P>  <Up>
 cnoremap <C-N>  <Down>
-
-
-
 

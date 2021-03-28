@@ -8,7 +8,7 @@ try
 catch
 endtry
 
-set background=dark
+set background=light
 
 " Extra options for GUI mode
 if has("gui_running")

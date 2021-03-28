@@ -4,6 +4,7 @@
 let s:vim_runtime = expand('<sfile>:p:h')
 call plug#begin(s:vim_runtime.'/dependencies')
 
+Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 call plug#end()

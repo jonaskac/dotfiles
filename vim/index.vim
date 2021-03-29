@@ -2,6 +2,11 @@
 " We are using pathogen, since we want this to work on older versions of Vim
 
 let s:vim_runtime = expand('<sfile>:p:h')
+function! SourceFile(path) 
+    execute 'source' s:vim_runtime.'/'.a:path 
+endfunction
+
+
 call plug#begin(s:vim_runtime.'/dependencies')
 
 Plug 'junegunn/fzf.vim'
@@ -10,25 +15,24 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
 
 " TODO : Add a way to load  files in the directory
-
 " Base
-source vim/base/helpers.vim
-source vim/base/index.vim
-source vim/base/buffers_tabs.vim
-source vim/base/files_directories.vim
-source vim/base/ignore.vim
-source vim/base/index.vim
-source vim/base/misc.vim
-source vim/base/spelling.vim
-source vim/base/windows.vim
+call SourceFile('base/helpers.vim')
+call SourceFile('base/index.vim')
+call SourceFile('base/buffers_tabs.vim')
+call SourceFile('base/files_directories.vim')
+call SourceFile('base/ignore.vim')
+call SourceFile('base/index.vim')
+call SourceFile('base/misc.vim')
+call SourceFile('base/spelling.vim')
+call SourceFile('base/windows.vim')
 
 
 " Searching
-source vim/searching/index.vim
-source vim/searching/fzf.vim
+call SourceFile('searching/index.vim')
+call SourceFile('searching/fzf.vim')
 
 " UI
-source vim/ui/index.vim
-source vim/ui/colors.vim
-source vim/ui/schema.vim
-source vim/ui/sounds.vim
+call SourceFile('ui/index.vim')
+call SourceFile('ui/colors.vim')
+call SourceFile('ui/schema.vim')
+call SourceFile('ui/sounds.vim')

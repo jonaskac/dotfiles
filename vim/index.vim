@@ -8,10 +8,15 @@ endfunction
 
 
 call plug#begin(s:vim_runtime.'/dependencies')
+" Completion
+Plug 'neovim/nvim-lspconfig'
 
+" Fuzzy finding and grep
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'jremmen/vim-ripgrep'
+
+" Schema
 Plug 'morhetz/gruvbox'
  
 call plug#end()

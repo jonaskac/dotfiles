@@ -11,9 +11,10 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
         # TODO
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Installing MACOS dependencies"
-        brew install fzf
-        brew install ripgrep
-        brew install jesseduffield/lazygit/lazygit
+        brew install fzf # For fuzzy searching
+        brew install ripgrep # For file searching
+        brew install jesseduffield/lazygit/lazygit # For git
+        brew install bat # For syntax highlighting
         # TODO : Add installation of oh-my-zsh
 elif [[ "$OSTYPE" == "cygwin" ]]; then
     echo "Installing cygwing dependencies"

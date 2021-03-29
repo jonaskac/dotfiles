@@ -4,11 +4,11 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 try
-	colorscheme desert
+	colorscheme gruvbox
 catch
 endtry
 
-set background=light
+set background=dark
 
 " Extra options for GUI mode
 if has("gui_running")

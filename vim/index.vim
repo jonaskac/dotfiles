@@ -11,7 +11,9 @@ call plug#begin(s:vim_runtime.'/dependencies')
 
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-
+Plug 'jremmen/vim-ripgrep'
+Plug 'morhetz/gruvbox'
+ 
 call plug#end()
 
 " TODO : Add a way to load  files in the directory

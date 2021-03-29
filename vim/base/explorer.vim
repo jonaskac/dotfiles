@@ -2,7 +2,8 @@
 " Explorer
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let g:ExplorerIsOpen=0
+let g:ExplorerIsOpen = 0
+let g:netrw_winsize = 15
 
 function ToggleExplorer()
     if g:ExplorerIsOpen
@@ -11,11 +12,11 @@ function ToggleExplorer()
             if (getbufvar(i, "&filetype") == "netrw")
                 silent execute "bwipeout " . i
             endif
-            let i-=1
+            let i -= 1
         endwhile
-        let g:ExplorerIsOpen=0
+        let g:ExplorerIsOpen = 0
     else
-        let g:ExplorerIsOpen=1
+        let g:ExplorerIsOpen = 1
         silent Lexplore
     endif
 endfunction

@@ -25,6 +25,7 @@ call SourceFile('base/index.vim')
 call SourceFile('base/misc.vim')
 call SourceFile('base/spelling.vim')
 call SourceFile('base/windows.vim')
+call SourceFile('base/explorer.vim')
 
 
 " Searching

@@ -39,6 +39,9 @@ call SourceFile('base/explorer.vim')
 call SourceFile('searching/index.vim')
 call SourceFile('searching/fzf.vim')
 
+" Completion
+call SourceFile('completion/index.vim')
+
 " UI
 call SourceFile('ui/index.vim')
 call SourceFile('ui/colors.vim')

@@ -11,6 +11,10 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
         # TODO
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Installing MACOS dependencies"
+        # Install the latest version of neovim
+        brew install --HEAD luajit
+        brew install --HEAD neovim
+
         brew install fzf # For fuzzy searching
         brew install ripgrep # For file searching
         brew install jesseduffield/lazygit/lazygit # For git

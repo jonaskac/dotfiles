@@ -31,4 +31,5 @@ fi
 
 ## Possibilities:
 
-* Checkout telescope https://github.com/nvim-telescope/telescope.nvim
+* Checkout telescope [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+* Fig for installations: [FIG](https://github.com/wincent/wincent/tree/master/fig)

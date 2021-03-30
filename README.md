@@ -25,4 +25,4 @@ fi
 * Git gutter
 * zsh & bash installations
 * Interactive installation script
-
+* Add fuzzy line search to fzf#vim#grep functionality so that we don't have to write the exact line

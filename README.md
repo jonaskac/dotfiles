@@ -22,6 +22,7 @@ fi
 
 # TODO:
 
+* Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp)
 * Git gutter
 * zsh & bash installations
 * Interactive installation script

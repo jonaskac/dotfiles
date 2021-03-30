@@ -19,3 +19,10 @@ if type rg &> /dev/null; then
   export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
 fi
 ```
+
+# TODO:
+
+* Git gutter
+* zsh & bash installations
+* Interactive installation script
+

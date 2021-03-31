@@ -44,7 +44,8 @@ TODO: Add this to a versioned file that is included in this repository (people s
 
 # TODO:
 
-- Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp)
+- Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp, test out nvim-compe)
+  -- Setup your own completion (https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c)
 - Git gutter
 - zsh & bash installations
 - Interactive installation script

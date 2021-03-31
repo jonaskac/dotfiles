@@ -10,6 +10,7 @@ endfunction
 call plug#begin(s:vim_runtime.'/dependencies')
 " Completion
 Plug 'neovim/nvim-lspconfig'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Fuzzy finding and grep
 Plug 'junegunn/fzf.vim'
@@ -41,6 +42,7 @@ call SourceFile('searching/fzf.vim')
 
 " Completion
 call SourceFile('completion/index.vim')
+call SourceFile('completion/prettier.vim')
 
 " UI
 call SourceFile('ui/index.vim')

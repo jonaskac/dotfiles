@@ -50,6 +50,9 @@ TODO: Add this to a versioned file that is included in this repository (people s
 - zsh & bash installations
 - Interactive installation script
 - Add fuzzy line search to fzf#vim#grep functionality so that we don't have to write the exact line
+- Nerdtree
+- Update instructions so that we can use VSCode (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
+  -- VSCode has some good features that Neovim doesn't support (e.g. live share). When using this we want to install the (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
 
 ## Possibilities:
 

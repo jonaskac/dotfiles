@@ -17,7 +17,7 @@ set wildmenu
 set ruler
 
 " Height of the command bar
-set cmdheight=1
+set cmdheight=2
 
 " Configure backspace
 set backspace=eol,start,indent

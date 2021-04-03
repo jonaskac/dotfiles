@@ -8,6 +8,7 @@ au FocusGained,BufEnter * checktime
 
 " Turn backup off
 set nobackup
+set nowritebackup
 set nowb
 set noswapfile
 

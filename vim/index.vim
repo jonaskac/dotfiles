@@ -43,6 +43,7 @@ call SourceFile('searching/fzf.vim')
 " Completion
 call SourceFile('completion/index.vim')
 call SourceFile('completion/prettier.vim')
+call SourceFile('completion/coc.vim')
 
 " UI
 call SourceFile('ui/index.vim')

@@ -17,6 +17,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'jremmen/vim-ripgrep'
 
+" Which key
+Plug 'liuchengxu/vim-which-key'
+
 " Schema
 Plug 'morhetz/gruvbox'
  
@@ -44,6 +47,9 @@ call SourceFile('searching/fzf.vim')
 call SourceFile('completion/index.vim')
 call SourceFile('completion/prettier.vim')
 call SourceFile('completion/coc.vim')
+
+" Which key
+call SourceFile('ui/which_key.vim')
 
 " UI
 call SourceFile('ui/index.vim')

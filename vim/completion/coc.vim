@@ -1,6 +1,9 @@
-"""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""
 " Coc - Conquer of completion
-"""""""""""""""""""""""""""""
+"
+" More information can be found here:
+" https://github.com/neoclide/coc.nvim
+"""""""""""""""""""""""""""""""""""""""
 
 " Always show the signcolumn, otherwise it would shift the text each time
 " diagnostics appear/become resolved.
@@ -69,8 +72,8 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 nmap <leader>rn <Plug>(coc-rename)
 
 " Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
+xmap <leader>b  <Plug>(coc-format-selected)
+nmap <leader>b  <Plug>(coc-format-selected)
 
 augroup mygroup
   autocmd!

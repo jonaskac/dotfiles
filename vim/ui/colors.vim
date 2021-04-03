@@ -10,7 +10,3 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 
-" Set encoding to utf8
-set encoding=utf8
-
-

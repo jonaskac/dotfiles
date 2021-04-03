@@ -12,6 +12,10 @@ set number
 set history=500
 
 
+" Set encoding to utf8
+set encoding=utf8
+
+
 """"""""""" COMMAND LINE NAVIGATION
 cnoremap <C-A>  <Home>
 cnoremap <C-E>  <End>

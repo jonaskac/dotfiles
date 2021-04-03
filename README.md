@@ -46,6 +46,7 @@ TODO: Add this to a versioned file that is included in this repository (people s
 
 - Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp, test out nvim-compe)
   -- Setup your own completion (https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c)
+- [Which key](https://github.com/liuchengxu/vim-which-key)
 - Git gutter
 - zsh & bash installations
 - Interactive installation script

@@ -42,9 +42,15 @@ TODO: Add this to a versioned file that is included in this repository (people s
 }
 ```
 
+# Keybindings that needs updating
+
+- <Space>s does not start searching for something with S but opens up an interactive buffer.
+
 # TODO:
 
 - Evalutate what should be the <leader> button
+- [Which key](https://github.com/liuchengxu/vim-which-key)
+  -- Configure a better which key setup
 - Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp, test out nvim-compe)
   -- Setup your own completion (https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c)
 - Goyo for mindfullnes coding [Goyo](https://github.com/junegunn/goyo.vim)
@@ -55,8 +61,8 @@ TODO: Add this to a versioned file that is included in this repository (people s
 - Nerdtree
 - Update instructions so that we can use VSCode (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
   -- VSCode has some good features that Neovim doesn't support (e.g. live share). When using this we want to install the (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
-- [Which key](https://github.com/liuchengxu/vim-which-key)
-  -- Configure a better which key setup
+- [Ranger](https://ranger.github.io/) for [Vim](https://github.com/francoiscabrol/ranger.vim)
+- [SpaceVim](https://spacevim.org/)
 
 ## Possibilities:
 

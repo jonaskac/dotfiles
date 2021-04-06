@@ -50,6 +50,7 @@ TODO: Add this to a versioned file that is included in this repository (people s
 # TODO:
 
 - [] Evalutate what should be the <leader> button
+- [x] Line commenting [NERDCommenter](https://vimawesome.com/plugin/the-nerd-commenter)
 - [x] [Which key](https://github.com/liuchengxu/vim-which-key)
       [] -- Configure a better which key setup
 - [x] Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp, test out nvim-compe)

@@ -4,10 +4,10 @@
 " Add more shortcuts if needed
 " https://github.com/junegunn/fzf.vim#commands
 
-noremap <leader>f :Files<CR>
-noremap <leader>b :Buffers<CR>
-noremap <leader>c :Commands<CR>
-noremap <leader>g :JKRg<CR>
+noremap <leader>ff :Files<CR>
+noremap <leader>fb :Buffers<CR>
+noremap <leader>fc :Commands<CR>
+noremap <leader>fg :JKRg<CR>
 noremap <space><space> :BLines<CR>
 
 " node_modules/* should be honoured by gitignore in the directory that we are working in

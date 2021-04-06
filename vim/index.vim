@@ -20,6 +20,9 @@ Plug 'jremmen/vim-ripgrep'
 " Which key
 Plug 'liuchengxu/vim-which-key'
 
+" Commenting
+Plug 'preservim/nerdcommenter'
+
 " Preview
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 

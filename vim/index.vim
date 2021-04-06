@@ -20,6 +20,9 @@ Plug 'jremmen/vim-ripgrep'
 " Which key
 Plug 'liuchengxu/vim-which-key'
 
+" Preview
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
 " File navigation
 Plug 'francoiscabrol/ranger.vim'
 Plug 'rbgrouleff/bclose.vim' " Needed for ranger in neovim read more here: [Vim Ranger](https://github.com/francoiscabrol/ranger.vim)
@@ -29,7 +32,7 @@ Plug 'morhetz/gruvbox'
  
 call plug#end()
 
-" TODO : Add a way to load  files in the directory
+" TODO : Add a way to load all files in the directory
 " Base
 call SourceFile('base/helpers.vim')
 call SourceFile('base/index.vim')

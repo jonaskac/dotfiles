@@ -7,6 +7,7 @@ Using a lot of reference from
 - [AMIX VIMRC config](https://github.com/amix/vimrc/)
 - [NVCode](https://github.com/ChristianChiarulli/nvcode)
 - [dots](https://github.com/drn/dots)
+- [SpaceVim](https://spacevim.org/)
 
 ## Not added in installation yet
 
@@ -62,7 +63,6 @@ TODO: Add this to a versioned file that is included in this repository (people s
 - Update instructions so that we can use VSCode (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
   -- VSCode has some good features that Neovim doesn't support (e.g. live share). When using this we want to install the (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
 - [Ranger](https://ranger.github.io/) for [Vim](https://github.com/francoiscabrol/ranger.vim)
-- [SpaceVim](https://spacevim.org/)
 
 ## Possibilities:
 

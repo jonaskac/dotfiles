@@ -49,23 +49,27 @@ TODO: Add this to a versioned file that is included in this repository (people s
 
 # TODO:
 
-- Evalutate what should be the <leader> button
-- [Which key](https://github.com/liuchengxu/vim-which-key)
-  -- Configure a better which key setup
-- Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp, test out nvim-compe)
-  -- Setup your own completion (https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c)
-- Goyo for mindfullnes coding [Goyo](https://github.com/junegunn/goyo.vim)
-- Git gutter
-- Git - [Fugitive](https://vimawesome.com/plugin/fugitive-vim)
-- zsh & bash installations
-- Interactive installation script
-- Add fuzzy line search to fzf#vim#grep functionality so that we don't have to write the exact line
-- Nerdtree
-- Update instructions so that we can use VSCode (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
+- [] Evalutate what should be the <leader> button
+- [x] [Which key](https://github.com/liuchengxu/vim-which-key)
+      [] -- Configure a better which key setup
+- [x] Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp, test out nvim-compe)
+      [] -- Setup your own completion (https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c)
+- [] Goyo for mindfullnes coding [Goyo](https://github.com/junegunn/goyo.vim)
+- [] Git gutter
+- [] Git - [Fugitive](https://vimawesome.com/plugin/fugitive-vim)
+- [] Zsh & bash installations
+- [] Interactive installation script (when we run the installation we should get some options)
+- [x] Add fuzzy line search to fzf#vim#grep functionality so that we don't have to write the exact line
+- [] Update instructions so that we can use VSCode (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
   -- VSCode has some good features that Neovim doesn't support (e.g. live share). When using this we want to install the (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
-- [Ranger](https://ranger.github.io/) for [Vim](https://github.com/francoiscabrol/ranger.vim)
+- [x] [Ranger](https://ranger.github.io/) for [Vim](https://github.com/francoiscabrol/ranger.vim)
+      [] -- Check out the alternative [RNVIMR](https://awesomeopensource.com/project/kevinhwang91/rnvimr)
 
 ## Possibilities:
 
 - Checkout telescope [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - Fig for installations: [FIG](https://github.com/wincent/wincent/tree/master/fig)
+
+## Study
+
+- [Lua in Nvim](https://github.com/nanotee/nvim-lua-guide)

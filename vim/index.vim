@@ -20,6 +20,10 @@ Plug 'jremmen/vim-ripgrep'
 " Which key
 Plug 'liuchengxu/vim-which-key'
 
+" File navigation
+Plug 'francoiscabrol/ranger.vim'
+Plug 'rbgrouleff/bclose.vim' " Needed for ranger in neovim read more here: [Vim Ranger](https://github.com/francoiscabrol/ranger.vim)
+
 " Schema
 Plug 'morhetz/gruvbox'
  

@@ -56,6 +56,7 @@ TODO: Add this to a versioned file that is included in this repository (people s
   -- Setup your own completion (https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c)
 - Goyo for mindfullnes coding [Goyo](https://github.com/junegunn/goyo.vim)
 - Git gutter
+- Git - [Fugitive](https://vimawesome.com/plugin/fugitive-vim)
 - zsh & bash installations
 - Interactive installation script
 - Add fuzzy line search to fzf#vim#grep functionality so that we don't have to write the exact line

@@ -19,6 +19,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
         brew install ripgrep # For file searching
         brew install jesseduffield/lazygit/lazygit # For git
         brew install bat # For syntax highlighting
+        brew install ranger
         # TODO : Add installation of oh-my-zsh
 elif [[ "$OSTYPE" == "cygwin" ]]; then
     echo "Installing cygwing dependencies"

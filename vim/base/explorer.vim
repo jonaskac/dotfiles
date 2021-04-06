@@ -2,23 +2,9 @@
 " Explorer
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let g:ExplorerIsOpen = 0
-let g:netrw_winsize = 15
+" We are using ranger to navigate files at the moment
 
-function ToggleExplorer()
-    if g:ExplorerIsOpen
-        let i = bufnr("$")
-        while (i >= 1)
-            if (getbufvar(i, "&filetype") == "netrw")
-                silent execute "bwipeout " . i
-            endif
-            let i -= 1
-        endwhile
-        let g:ExplorerIsOpen = 0
-    else
-        let g:ExplorerIsOpen = 1
-        silent Lexplore
-    endif
-endfunction
+let g:ranger_map_keys = 0
+let g:ranger_replace_netrw = 1 " open ranger when vim open a directory
 
-noremap <leader>e :call ToggleExplorer()<CR>
+noremap <leader>e :Ranger<CR>

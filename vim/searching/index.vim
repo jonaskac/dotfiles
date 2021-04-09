@@ -38,10 +38,9 @@ set smartcase
 
 " Inc search
 set incsearch
- 
-" Map space to / (search)
-map <space> /
-map <C-space> ?
+
+" Remove highlights
+map <leader>nh :noh<CR>
 
 """"""""""" Visual mode
 " Pressing * or # searches for current selection

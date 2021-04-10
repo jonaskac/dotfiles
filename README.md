@@ -59,6 +59,8 @@ TODO: Add this to a versioned file that is included in this repository (people s
 - [x] Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp, test out nvim-compe)
       -- [ ] Setup your own completion (https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c)
       -- [ ] You Complete Me is an alternative to CoC - [YouCompleteMe](https://vimawesome.com/plugin/youcompleteme)
+- [ ] HTML [Emmet](https://vimawesome.com/plugin/emmet-vim)
+- [ ] Linting with [Ale](https://vimawesome.com/plugin/ale)
 - [ ] Goyo for mindfullnes coding [Goyo](https://github.com/junegunn/goyo.vim)
 - [x] Git gutter
 - [ ] Git - [Fugitive](https://vimawesome.com/plugin/fugitive-vim)

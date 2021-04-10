@@ -35,6 +35,9 @@ Plug 'rbgrouleff/bclose.vim' " Needed for ranger in neovim read more here: [Vim 
 
 " Schema
 Plug 'morhetz/gruvbox'
+
+" Git
+Plug 'airblade/vim-gitgutter'
  
 call plug#end()
 

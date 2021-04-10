@@ -57,8 +57,9 @@ TODO: Add this to a versioned file that is included in this repository (people s
 - [x] Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp, test out nvim-compe)
       [] -- Setup your own completion (https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c)
 - [] Goyo for mindfullnes coding [Goyo](https://github.com/junegunn/goyo.vim)
-- [] Git gutter
+- [x] Git gutter
 - [] Git - [Fugitive](https://vimawesome.com/plugin/fugitive-vim)
+  -- [] Add git blame functionality
 - [] Zsh & bash installations
 - [] [Syntactic](https://vimawesome.com/plugin/syntastic)
 - [] Interactive installation script (when we run the installation we should get some options)

@@ -51,6 +51,7 @@ TODO: Add this to a versioned file that is included in this repository (people s
 
 - [] Evalutate what should be the <leader> button
 - [x] Line commenting [NERDCommenter](https://vimawesome.com/plugin/the-nerd-commenter)
+      -- [] Check out if we can add line commenting
 - [x] [Which key](https://github.com/liuchengxu/vim-which-key)
       [] -- Configure a better which key setup
 - [x] Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp, test out nvim-compe)
@@ -59,6 +60,7 @@ TODO: Add this to a versioned file that is included in this repository (people s
 - [] Git gutter
 - [] Git - [Fugitive](https://vimawesome.com/plugin/fugitive-vim)
 - [] Zsh & bash installations
+- [] [Syntactic](https://vimawesome.com/plugin/syntastic)
 - [] Interactive installation script (when we run the installation we should get some options)
 - [x] Add fuzzy line search to fzf#vim#grep functionality so that we don't have to write the exact line
 - [] Update instructions so that we can use VSCode (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)

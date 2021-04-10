@@ -12,6 +12,9 @@ call plug#begin(s:vim_runtime.'/dependencies')
 Plug 'neovim/nvim-lspconfig'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Surround
+Plug 'tpope/vim-surround'
+
 " Fuzzy finding and grep
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

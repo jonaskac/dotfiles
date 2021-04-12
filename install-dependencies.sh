@@ -26,7 +26,11 @@ elif [[ "$OSTYPE" == "cygwin" ]]; then
         # TODO: POSIX compatibility layer and Linux environment emulation for Windows
 elif [[ "$OSTYPE" == "msys" ]]; then
     echo "Installing msys dependencies"
-        # TODO: Lightweight shell and GNU utilities compiled for Windows (part of MinGW)
+        choco install neovim --pre
+        choco install fzf
+        choco install ripgrep
+        choco install lazygit
+        choco install bat
 elif [[ "$OSTYPE" == "win32" ]]; then
     echo "Installing win32 dependencies"
         # TODO: I'm not sure this can happen.

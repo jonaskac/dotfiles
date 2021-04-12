@@ -64,31 +64,31 @@ TODO: Add this to a versioned file that is included in this repository (people s
 ### Programming
 
 - [ ] Breakpoints
-      -- [Vim inspector](https://vimawesome.com/plugin/vimspector)
+  - [Vim inspector](https://vimawesome.com/plugin/vimspector)
 - [x] Line commenting [NERDCommenter](https://vimawesome.com/plugin/the-nerd-commenter)
-      -- [ ] Check out if we can add line commenting [possibility](https://vimawesome.com/plugin/commentary-vim)
-      I'm not superhappy with NERDCommenter
+  - [ ] Check out if we can add line commenting [possibility](https://vimawesome.com/plugin/commentary-vim)
+        I'm not superhappy with NERDCommenter
 - [x] Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp, test out nvim-compe)
-      -- [ ] Setup your own completion (https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c)
-      -- [ ] You Complete Me is an alternative to CoC - [YouCompleteMe](https://vimawesome.com/plugin/youcompleteme)
+  - [ ] Setup your own completion (https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c)
+  - [ ] You Complete Me is an alternative to CoC - [YouCompleteMe](https://vimawesome.com/plugin/youcompleteme)
 - [ ] HTML [Emmet](https://vimawesome.com/plugin/emmet-vim)
 - [ ] Linting with [Ale](https://vimawesome.com/plugin/ale)
 - [x] Git gutter
 - [ ] Git - [Fugitive](https://vimawesome.com/plugin/fugitive-vim)
-      -- [ ] Add git blame functionality
+  - [ ] Add git blame functionality
 - [ ] Update instructions so that we can use VSCode (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
-      -- [ ] VSCode has some good features that Neovim doesn't support (e.g. live share). When using this we want to install the (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
+  - [ ] VSCode has some good features that Neovim doesn't support (e.g. live share). When using this we want to install the (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
 - [ ] [Syntactic](https://vimawesome.com/plugin/syntastic)
 
 ### Other
 
 - [ ] Evalutate what should be the `<leader>` button
 - [x] [Which key](https://github.com/liuchengxu/vim-which-key)
-      -- [ ] Configure a better which key setup
+  - [ ] Configure a better which key setup
 - [ ] Goyo for mindfullnes coding [Goyo](https://github.com/junegunn/goyo.vim)
 - [x] Add fuzzy line search to fzf#vim#grep functionality so that we don't have to write the exact line
 - [x] [Ranger](https://ranger.github.io/) for [Vim](https://github.com/francoiscabrol/ranger.vim)
-      -- [ ] Check out the alternative [RNVIMR](https://awesomeopensource.com/project/kevinhwang91/rnvimr)
+  - [ ] Check out the alternative [RNVIMR](https://awesomeopensource.com/project/kevinhwang91/rnvimr)
 
 ### Possibilities:
 
@@ -98,3 +98,6 @@ TODO: Add this to a versioned file that is included in this repository (people s
 ### Study
 
 - [Lua in Nvim](https://github.com/nanotee/nvim-lua-guide)
+  -- [Lua](http://www.lua.org/manual/5.4/manual.html#2)
+- [VIM Marks](https://vim.fandom.com/wiki/Using_marks)
+- [VSCode <-> Neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim) (sometimes I want to use VSCode, this is a good way to get the best of both worlds)

@@ -74,6 +74,7 @@ TODO: Add this to a versioned file that is included in this repository (people s
 - [ ] HTML [Emmet](https://vimawesome.com/plugin/emmet-vim)
 - [ ] Linting with [Ale](https://vimawesome.com/plugin/ale)
 - [x] Git gutter
+  - [ ] [Signify](https://vimawesome.com/plugin/vim-signify) as an alternative
 - [x] Git - [Fugitive](https://vimawesome.com/plugin/fugitive-vim)
   - [ ] Add git blame functionality
 - [ ] Update instructions so that we can use VSCode (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)

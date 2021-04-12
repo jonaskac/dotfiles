@@ -74,11 +74,13 @@ TODO: Add this to a versioned file that is included in this repository (people s
 - [ ] HTML [Emmet](https://vimawesome.com/plugin/emmet-vim)
 - [ ] Linting with [Ale](https://vimawesome.com/plugin/ale)
 - [x] Git gutter
-- [ ] Git - [Fugitive](https://vimawesome.com/plugin/fugitive-vim)
+- [x] Git - [Fugitive](https://vimawesome.com/plugin/fugitive-vim)
   - [ ] Add git blame functionality
 - [ ] Update instructions so that we can use VSCode (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
   - [ ] VSCode has some good features that Neovim doesn't support (e.g. live share). When using this we want to install the (https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
 - [ ] [Syntactic](https://vimawesome.com/plugin/syntastic)
+- [x] [Airline](https://vimawesome.com/plugin/vim-airline-superman)
+  - [ ] [Themes](https://github.com/vim-airline/vim-airline/wiki/Screenshots)
 
 ### Other
 
@@ -93,7 +95,6 @@ TODO: Add this to a versioned file that is included in this repository (people s
 ### Possibilities:
 
 - Checkout telescope [Telescope](https://github.com/nvim-telescope/telescope.nvim)
-- [Airline](https://vimawesome.com/plugin/vim-airline-superman)
 
 ### Study
 

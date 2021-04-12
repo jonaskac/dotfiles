@@ -37,7 +37,12 @@ Plug 'rbgrouleff/bclose.vim' " Needed for ranger in neovim read more here: [Vim 
 Plug 'morhetz/gruvbox'
 
 " Git
+Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+
+" Statusline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
  
 call plug#end()
 
@@ -64,11 +69,11 @@ call SourceFile('completion/index.vim')
 call SourceFile('completion/prettier.vim')
 call SourceFile('completion/coc.vim')
 
-" Which key
-call SourceFile('ui/which_key.vim')
 
 " UI
 call SourceFile('ui/index.vim')
 call SourceFile('ui/colors.vim')
 call SourceFile('ui/schema.vim')
 call SourceFile('ui/sounds.vim')
+call SourceFile('ui/statusline.vim')
+call SourceFile('ui/which_key.vim')

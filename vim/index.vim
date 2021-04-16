@@ -32,6 +32,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 " File navigation
 Plug 'francoiscabrol/ranger.vim'
 Plug 'rbgrouleff/bclose.vim' " Needed for ranger in neovim read more here: [Vim Ranger](https://github.com/francoiscabrol/ranger.vim)
+Plug 'scrooloose/nerdtree'
 
 " Schema
 Plug 'morhetz/gruvbox'

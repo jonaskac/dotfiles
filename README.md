@@ -82,6 +82,7 @@ TODO: Add this to a versioned file that is included in this repository (people s
 - [ ] [Syntactic](https://vimawesome.com/plugin/syntastic)
 - [x] [Airline](https://vimawesome.com/plugin/vim-airline-superman)
   - [ ] [Themes](https://github.com/vim-airline/vim-airline/wiki/Screenshots)
+- [ ] QuickFix list handling both for diagnostics as well as error in the code (might already be fixes for this in place, need to find out what they are)
 
 ### Other
 

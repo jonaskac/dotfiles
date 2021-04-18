@@ -7,7 +7,7 @@ To install the dotfiles go into the directory and run `./install.sh`.
 Using a lot of reference from
 
 - [AMIX VIMRC config](https://github.com/amix/vimrc/)
-- [NVCode](https://github.com/ChristianChiarulli/nvcode)
+- [LunarVim](https://github.com/ChristianChiarulli/LunarVim)
 - [dots](https://github.com/drn/dots)
 - [SpaceVim](https://spacevim.org/)
 

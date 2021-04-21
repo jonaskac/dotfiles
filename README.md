@@ -54,11 +54,15 @@ TODO: Add this to a versioned file that is included in this repository (people s
 
 ## Installation
 
-- [ ] Zsh & bash installations
-  - [ ] [Fish shell](https://fishshell.com/)
+- [ ] [Git shortcuts/aliases](https://githowto.com/aliases)
 - [ ] Interactive installation script (when we run the installation we should get some options)
 - [ ] Fig for installations: [FIG](https://github.com/wincent/wincent/tree/master/fig)
 - [ ] On installation script run it should run the command "PlugInstall" in vim, and install the dependencies in Coc
+
+## Shell
+
+- [ ] Zsh & bash installations
+  - [ ] [Fish shell](https://fishshell.com/)
 
 ## VIM
 

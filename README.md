@@ -45,10 +45,11 @@ TODO: Add this to a versioned file that is included in this repository (people s
   ]
 }
 ```
+## Ranger
 
-# Keybindings that needs updating
+Update ranger configs:
 
-- `<Space>s` does not start searching for something with S but opens up an interactive buffer.
+ranger --copy-config=rifle.conf
 
 # TODO:
 
@@ -70,6 +71,8 @@ TODO: Add this to a versioned file that is included in this repository (people s
 
 - [ ] Breakpoints
   - [Vim inspector](https://vimawesome.com/plugin/vimspector)
+	- [ ] [Debugger](https://github.com/mfussenegger/nvim-dap/wiki/Debug-Adapter-installation)
+
 - [x] Line commenting [NERDCommenter](https://vimawesome.com/plugin/the-nerd-commenter)
   - [ ] Check out if we can add line commenting [possibility](https://vimawesome.com/plugin/commentary-vim)
         I'm not superhappy with NERDCommenter

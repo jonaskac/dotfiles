@@ -6,7 +6,6 @@
 
 set -e
 
-echo "
 echo "Installing dependencies"
 ./install-dependencies.sh
 

@@ -13,8 +13,19 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
         brew install bat # For syntax highlighting
         brew install ranger # For directory and file browsing
 
+		# NeoVim
+		brew install --HEAD luajit
+		brew install --HEAD neovim
+
+		## LunarVim
+		bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/lunarvim/master/utils/installer/install.sh)
+
+		## VSCode
+		brew install --cask visual-studio-code
+
         # Terminal
         brew install fish
+		brew install starship
 elif [[ "$OSTYPE" == "cygwin" ]]; then
     echo "Installing cygwing dependencies"
         # TODO: POSIX compatibility layer and Linux environment emulation for Windows

@@ -68,6 +68,7 @@ fi
   - [ ] Configure a better which key setup
 - [ ] Goyo for mindfullnes coding [Goyo](https://github.com/junegunn/goyo.vim)
 - [x] Add fuzzy line search to fzf#vim#grep functionality so that we don't have to write the exact line
+- [ ] Add preview to fuzzy find (https://nicedoc.io/junegunn/fzf#preview-window)
 - [x] [Ranger](https://ranger.github.io/) for [Vim](https://github.com/francoiscabrol/ranger.vim)
   - [ ] Check out the alternative [RNVIMR](https://awesomeopensource.com/project/kevinhwang91/rnvimr)
 

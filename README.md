@@ -45,11 +45,10 @@ TODO: Add this to a versioned file that is included in this repository (people s
   ]
 }
 ```
-## Ranger
 
-Update ranger configs:
+# Keybindings that needs updating
 
-ranger --copy-config=rifle.conf
+- `<Space>s` does not start searching for something with S but opens up an interactive buffer.
 
 # TODO:
 
@@ -65,7 +64,7 @@ ranger --copy-config=rifle.conf
 - [ ] Zsh & bash installations
   - [ ] [Fish shell](https://fishshell.com/)
 
-## VIM
+## VIM (Have been trying to get a proper working solution, I've however got a pretty good version going with VSCode, think I'm going to stick with it for now)
 
 ### Programming
 

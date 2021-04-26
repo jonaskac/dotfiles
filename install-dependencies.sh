@@ -2,19 +2,11 @@
 # Installs all the relevant dependencies
 ###################################################
 
-# Update vim-plug
-curl -s https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim > ./vim/autoload/plug.vim
-
-
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     echo "Installing linux-gnu dependencies"
         # TODO
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Installing MACOS dependencies"
-        # Install the latest version of neovim
-        brew install --HEAD luajit
-        brew install --HEAD neovim
-
         brew install fzf # For fuzzy searching
         brew install ripgrep # For file searching
         brew install jesseduffield/lazygit/lazygit # For git
@@ -23,17 +15,18 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 
         # Terminal
         brew install fish
-        # TODO : Add installation of oh-my-zsh
 elif [[ "$OSTYPE" == "cygwin" ]]; then
     echo "Installing cygwing dependencies"
         # TODO: POSIX compatibility layer and Linux environment emulation for Windows
 elif [[ "$OSTYPE" == "msys" ]]; then
     echo "Installing msys dependencies"
-        choco install neovim --pre
         choco install fzf
         choco install ripgrep
         choco install lazygit
         choco install bat
+
+        # Terminal
+        # TODO: Add fish install
 elif [[ "$OSTYPE" == "win32" ]]; then
     echo "Installing win32 dependencies"
         # TODO: I'm not sure this can happen.

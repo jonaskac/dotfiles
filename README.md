@@ -37,14 +37,16 @@ fi
 
 - [ ] Zsh & bash installations
   - [ ] [Fish shell](https://fishshell.com/)
+- [ ] [FZF](https://github.com/jorgebucaran/fisher)
+
+## VIM
+
+- [Vim inspector](https://vimawesome.com/plugin/vimspector)
+  - [ ] [Debugger](https://github.com/mfussenegger/nvim-dap/wiki/Debug-Adapter-installation)
 
 ## Programming (This was earlier based off of Neovim, I've kept some things that I still think are good but needs to be replaced with a VSCode version)
 
 - [ ] Breakpoints
-
-  - [Vim inspector](https://vimawesome.com/plugin/vimspector)
-  - [ ] [Debugger](https://github.com/mfussenegger/nvim-dap/wiki/Debug-Adapter-installation)
-
 - [ ] Preview on search
 - [ ] HTML [Emmet](https://vimawesome.com/plugin/emmet-vim)
 - [ ] Linting with [Ale](https://vimawesome.com/plugin/ale)

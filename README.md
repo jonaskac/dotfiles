@@ -1,20 +1,19 @@
 # MY DOTFILES
 
-Base for installing for a development computer.
+It is quite heavy on vim stuff right now, but this repo is supposed to work with all stuff that is needed to install working computer.
 
 To install the dotfiles go into the directory and run `./install.sh`.
 
-References:
+Using a lot of reference from
 
 - [AMIX VIMRC config](https://github.com/amix/vimrc/)
 - [LunarVim](https://github.com/ChristianChiarulli/LunarVim)
 - [dots](https://github.com/drn/dots)
 - [SpaceVim](https://spacevim.org/)
-- [VSCodeVim](https://github.com/VSCodeVim/Vim)
 
 ## Not added in installation yet
 
-- Add this to your bash, fish or zsh file
+- Add this to your bash or zsh file
 
 ```bash
 export FZF_DEFAULT_OPTS='-m --height 50% --layout=reverse --border'
@@ -23,6 +22,48 @@ if type rg &> /dev/null; then
   export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
 fi
 ```
+
+# VSCode
+
+## Modules to install:
+
+* [VSCodeVim](https://github.com/VSCodeVim/Vim)
+* [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
+* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [CSS Intellisence](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+* [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
+* [Import cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+* [Markdown Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [Which Key](https://github.com/VSpaceCode/vscode-which-key)
+* [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+
+## CoC
+
+Add these installations to the install script:
+
+:CocInstall coc-tsserver coc-json coc-eslint coc-prettier coc-snippets
+
+Add the following to the CocConfig file (you get to it by typing `:CocConfig`):
+
+TODO: Add this to a versioned file that is included in this repository (people seem to be symlinking it)
+
+```json
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "typescript",
+    "json",
+    "javascript",
+    "xml"
+  ]
+}
+```
+
+# Keybindings that needs updating
+
+- `<Space>s` does not start searching for something with S but opens up an interactive buffer.
 
 # TODO:
 
@@ -37,21 +78,21 @@ fi
 
 - [ ] Zsh & bash installations
   - [ ] [Fish shell](https://fishshell.com/)
-- [ ] [FZF](https://github.com/jorgebucaran/fisher)
 
 ## VIM
 
-- [Vim inspector](https://vimawesome.com/plugin/vimspector)
-  - [ ] [Debugger](https://github.com/mfussenegger/nvim-dap/wiki/Debug-Adapter-installation)
-
-## VSCode
-
-- [ ] [VSCodeVim](https://github.com/VSCodeVim/Vim)
-
-## Programming
+### Programming
 
 - [ ] Breakpoints
-- [ ] Preview on search
+  - [Vim inspector](https://vimawesome.com/plugin/vimspector)
+	- [ ] [Debugger](https://github.com/mfussenegger/nvim-dap/wiki/Debug-Adapter-installation)
+
+- [x] Line commenting [NERDCommenter](https://vimawesome.com/plugin/the-nerd-commenter)
+  - [ ] Check out if we can add line commenting [possibility](https://vimawesome.com/plugin/commentary-vim)
+        I'm not superhappy with NERDCommenter
+- [x] Code completion (there are some alternatives, see to that they work with treesitter & nvim lsp, test out nvim-compe)
+  - [ ] Setup your own completion (https://jose-elias-alvarez.medium.com/configuring-neovims-lsp-client-for-typescript-development-5789d58ea9c)
+  - [ ] You Complete Me is an alternative to CoC - [YouCompleteMe](https://vimawesome.com/plugin/youcompleteme)
 - [ ] HTML [Emmet](https://vimawesome.com/plugin/emmet-vim)
 - [ ] Linting with [Ale](https://vimawesome.com/plugin/ale)
 - [x] Git gutter
@@ -67,12 +108,11 @@ fi
 
 ### Other
 
-- [x] Evalutate what should be the `<leader>` button
-- [ ] [Which key](https://github.com/liuchengxu/vim-which-key)
+- [ ] Evalutate what should be the `<leader>` button
+- [x] [Which key](https://github.com/liuchengxu/vim-which-key)
   - [ ] Configure a better which key setup
 - [ ] Goyo for mindfullnes coding [Goyo](https://github.com/junegunn/goyo.vim)
 - [x] Add fuzzy line search to fzf#vim#grep functionality so that we don't have to write the exact line
-- [ ] Add preview to fuzzy find (https://nicedoc.io/junegunn/fzf#preview-window)
 - [x] [Ranger](https://ranger.github.io/) for [Vim](https://github.com/francoiscabrol/ranger.vim)
   - [ ] Check out the alternative [RNVIMR](https://awesomeopensource.com/project/kevinhwang91/rnvimr)
 

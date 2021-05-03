@@ -38,6 +38,7 @@ fi
 - [ ] Zsh & bash installations
   - [ ] [Fish shell](https://fishshell.com/)
 - [ ] [FZF](https://github.com/jorgebucaran/fisher)
+- [ ] Add installation of the [LunarVim dependencies](https://github.com/ChristianChiarulli/LunarVim/blob/master/utils/installer/install.sh)
 
 ## VIM
 

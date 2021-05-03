@@ -20,9 +20,6 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install --HEAD luajit
     brew install --HEAD neovim
 
-    ## LunarVim
-    bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/lunarvim/master/utils/installer/install.sh)
-
     ## VSCode
     brew install --cask visual-studio-code
 

@@ -9,4 +9,7 @@ set -e
 echo "Installing dependencies"
 ./install-dependencies.sh
 
+echo "Install Git submodules"
+./submodules.sh
+
 echo "Installation complete! :)"

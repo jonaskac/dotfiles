@@ -1,5 +1,12 @@
 # MY DOTFILES
 
+## Thought 
+
+As of the time of writing (2021-05-04), I can't manage to get code completion to work as it should. Which has become a deal breaker for me.
+Neo Vim could be a perfect solution, love the searching functionality, the speed. But the completion need to work properly before moving on.
+
+
+
 Base for installing for a development computer.
 
 To install the dotfiles go into the directory and run `./install.sh`.

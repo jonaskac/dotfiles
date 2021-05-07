@@ -65,6 +65,8 @@ fi
 - [Which Key](https://github.com/VSpaceCode/vscode-which-key)
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+- [VSCodeInstall](https://github.com/bradymholt/dotfiles/blob/master/dotfiles-setup.sh)
+- [VSCode Install dependencies via terminal](https://blog.dzarsky.eu/how-to-backup-your-vs-code-extensions-and-settings)
 
 ## Programming
 

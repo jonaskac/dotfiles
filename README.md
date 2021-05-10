@@ -68,6 +68,22 @@ fi
 - [VSCodeInstall](https://github.com/bradymholt/dotfiles/blob/master/dotfiles-setup.sh)
 - [VSCode Install dependencies via terminal](https://blog.dzarsky.eu/how-to-backup-your-vs-code-extensions-and-settings)
 
+### Plugins to install
+
+- Beautify
+- Bracket Pari Colorizer 2
+- ESLint
+- HTML Snippets
+- Import cost
+- Intellisence for CSS classes in HTML
+- Jest
+- Jest Runner
+- Prettier - Code Formatter
+- Remote - Containers
+- Vim
+- VSCode Icons
+- YAML
+
 ## Programming
 
 - [ ] Breakpoints

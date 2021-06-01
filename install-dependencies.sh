@@ -13,8 +13,8 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install bat # For syntax highlighting
     brew install ranger # For directory and file browsing
 
-		# Kubernetes
-		brew install k9s
+    # Kubernetes
+    brew install k9s
 
     # NeoVim
     brew install --HEAD luajit

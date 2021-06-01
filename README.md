@@ -81,7 +81,7 @@ fi
 - Prettier - Code Formatter
 - Remote - Containers
 - Vim
-- VSCode Icons
+- VSCode-Icons
 - YAML
 
 ## Programming

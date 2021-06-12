@@ -5,6 +5,7 @@
   "editor.renderWhitespace": "all",
   "editor.fontWeight": "bold",
   "editor.formatOnSave": true,
+  "vim.smartRelativeLine": true,
   "[typescript]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -60,6 +61,13 @@
       "after": ["<Esc>"]
     }
   ],
+  "vim.visualModeKeyBindings": [],
   "whichkey.delay": 0.2,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.tabSize": 8,
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off"
 }

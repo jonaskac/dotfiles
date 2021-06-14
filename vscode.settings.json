@@ -65,9 +65,9 @@
   "whichkey.delay": 0.2,
   "window.zoomLevel": -1,
   "workbench.iconTheme": "vscode-icons",
-  "editor.tabSize": 8,
+  "editor.tabSize": 4,
   "editor.cursorStyle": "line",
-  "editor.insertSpaces": false,
+  "editor.insertSpaces": true,
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "editor.wordWrap": "off"
 }

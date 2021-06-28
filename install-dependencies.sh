@@ -16,6 +16,9 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     # Kubernetes
     brew install k9s
 
+    # Programming launguages
+    brew install n
+
     # NeoVim
     brew install --HEAD luajit
     brew install --HEAD neovim

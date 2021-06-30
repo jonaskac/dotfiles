@@ -34,8 +34,10 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install --cask vscodium
 
     # Terminal
-    brew install fish
+    brew install --cask iterm2
     brew install starship
+    brew tap homebrew/cask-fonts
+    brew install --cask font-hack-nerd-font
 
 elif [[ "$OSTYPE" == "cygwin" ]]; then
     echo "Installing cygwing dependencies"

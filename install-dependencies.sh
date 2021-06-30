@@ -44,6 +44,9 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew tap homebrew/cask-fonts
     brew install --cask font-hack-nerd-font
 
+    # Tools
+    brew install gpg
+
 elif [[ "$OSTYPE" == "cygwin" ]]; then
     echo "Installing cygwing dependencies"
     # TODO: POSIX compatibility layer and Linux environment emulation for Windows

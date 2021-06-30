@@ -40,6 +40,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 
     # Terminal
     brew install --cask iterm2
+    brew install fish
     brew install starship
     brew tap homebrew/cask-fonts
     brew install --cask font-hack-nerd-font

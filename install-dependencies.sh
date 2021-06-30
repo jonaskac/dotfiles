@@ -6,6 +6,9 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     echo "Installing linux-gnu dependencies"
         # TODO
 elif [[ "$OSTYPE" == "darwin"* ]]; then
+    echo "Installing Homebrew"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
     echo "Installing MACOS dependencies"
     brew install fzf # For fuzzy searching
     brew install ripgrep # For file searching
@@ -16,19 +19,24 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     # Kubernetes
     brew install k9s
 
-    # Programming launguages
+    # Programming languages & tools
     brew install n
+
+    # Browsers
+    brew install --cask google-chrome
+    brew install --cask firefox
 
     # NeoVim
     brew install --HEAD luajit
     brew install --HEAD neovim
 
     ## VSCode
-    brew install --cask visual-studio-code
+    brew install --cask vscodium
 
     # Terminal
     brew install fish
     brew install starship
+
 elif [[ "$OSTYPE" == "cygwin" ]]; then
     echo "Installing cygwing dependencies"
     # TODO: POSIX compatibility layer and Linux environment emulation for Windows

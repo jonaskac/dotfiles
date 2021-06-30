@@ -26,9 +26,18 @@ git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --grap
 git config --global alias.type 'cat-file -t'
 git config --global alias.dump 'cat-file -p'
 
+echo "Adding some git configurations"
+echo "Name: "
+read name
+echo "Email: "
+read email
+
+git config --global user.name $name
+git config --global user.email $email
+
 echo "
 Things to install after installation:
 
 * Vimium in browsers (for navigation with Vim commands)
-* Finish starship installation: https://starship.rs/ (https://starship.rs/#zsh)
+* Finish starship installation: https://starship.rs/ (https://starship.rs/#zsh) (Also change to use the nerd fonts in settings)
 "

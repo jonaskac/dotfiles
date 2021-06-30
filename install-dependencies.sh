@@ -22,6 +22,11 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     # Programming languages & tools
     brew install n
 
+    # Communication
+    brew install --cask slack
+    brew install --cask messenger
+    brew install --cask microsoft-teams
+
     # Browsers
     brew install --cask google-chrome
     brew install --cask firefox
@@ -38,6 +43,9 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install starship
     brew tap homebrew/cask-fonts
     brew install --cask font-hack-nerd-font
+
+    # Tools
+    brew install --cask harvest
 
 elif [[ "$OSTYPE" == "cygwin" ]]; then
     echo "Installing cygwing dependencies"

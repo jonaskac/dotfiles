@@ -41,4 +41,10 @@ Things to install after installation:
 
 * Vimium in browsers (for navigation with Vim commands)
 * Finish starship installation: https://starship.rs/ (https://starship.rs/#zsh) (Also change to use the nerd fonts in settings)
+
+
+Add the following to ~/.config/fish/config.fish
+
+starship init fish | source
+sudo chown -R (whoami) /usr/local
 "

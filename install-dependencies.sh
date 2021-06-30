@@ -31,10 +31,6 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install --cask google-chrome
     brew install --cask firefox
 
-    # NeoVim
-    brew install --HEAD luajit
-    brew install --HEAD neovim
-
     ## VSCode
     brew install --cask vscodium
 

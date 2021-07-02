@@ -62,7 +62,6 @@
     }
   ],
   "vim.visualModeKeyBindings": [],
-  "whichkey.delay": 0.2,
   "window.zoomLevel": -1,
   "workbench.iconTheme": "vscode-icons",
   "editor.tabSize": 4,

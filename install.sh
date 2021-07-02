@@ -46,5 +46,8 @@ Things to install after installation:
 Add the following to ~/.config/fish/config.fish
 
 starship init fish | source
-sudo chown -R (whoami) /usr/local
+set -xg GPG_TTY (tty)
+
+Possible issues:
+* We have seen issues where we don't get the correct permissions in /usr/local, run this command to solve this: `sudo chown -R (whoami) /usr/local`
 "

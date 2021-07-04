@@ -1,11 +1,9 @@
 # MY DOTFILES
 
-## Thought 
+## Thought
 
 As of the time of writing (2021-05-04), I can't manage to get code completion to work as it should. Which has become a deal breaker for me.
 Neo Vim could be a perfect solution, love the searching functionality, the speed. But the completion need to work properly before moving on.
-
-
 
 Base for installing for a development computer.
 
@@ -39,6 +37,7 @@ fi
 - [ ] Interactive installation script (when we run the installation we should get some options)
 - [ ] Fig for installations: [FIG](https://github.com/wincent/wincent/tree/master/fig)
 - [ ] On installation script run it should run the command "PlugInstall" in vim, and install the dependencies in Coc
+- [ ] https://www.gnu.org/software/stow/
 
 ## Shell
 

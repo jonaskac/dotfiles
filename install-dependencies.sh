@@ -15,6 +15,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install jesseduffield/lazygit/lazygit # For git
     brew install bat # For syntax highlighting
     brew install ranger # For directory and file browsing
+    brew install git-lfs
 
     # Kubernetes
     brew install k9s

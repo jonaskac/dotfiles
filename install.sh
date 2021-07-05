@@ -49,5 +49,5 @@ starship init fish | source
 set -xg GPG_TTY (tty)
 
 Possible issues:
-* We have seen issues where we don't get the correct permissions in /usr/local, run this command to solve this: `sudo chown -R (whoami) /usr/local`
+* We have seen issues where we don't get the correct permissions in /usr/local, run this command to solve this: "sudo chown -R (whoami) /usr/local"
 "

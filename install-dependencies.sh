@@ -45,6 +45,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install gpg
     brew install --cask google-drive
     brew install htop
+    brew install sourcetree
 
 elif [[ "$OSTYPE" == "cygwin" ]]; then
     echo "Installing cygwing dependencies"

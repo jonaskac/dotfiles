@@ -1,7 +1,6 @@
 ###################################################
 # Installs all the relevant dependencies
 ###################################################
-
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     echo "Installing linux-gnu dependencies"
         # TODO
@@ -24,27 +23,27 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install n
 
     # Communication
-    brew install --cask slack
-    brew install --cask messenger
-    brew install --cask microsoft-teams
+    brew upgrade --cask slack
+    brew upgrade --cask messenger
+    brew upgrade --cask microsoft-teams
 
     # Browsers
-    brew install --cask google-chrome
-    brew install --cask firefox
+    brew upgrade --cask google-chrome
+    brew upgrade --cask firefox
 
     ## VSCode
-    brew install --cask vscodium
+    brew upgrade --cask vscodium
 
     # Terminal
-    brew install --cask iterm2
+    brew upgrade --cask iterm2
     brew install fish
     brew install starship
     brew tap homebrew/cask-fonts
-    brew install --cask font-hack-nerd-font
+    brew upgrade --cask font-hack-nerd-font
 
     # Tools
     brew install gpg
-    brew install --cask google-drive
+    brew upgrade --cask google-drive
     brew install htop
     brew install sourcetree
 
@@ -70,3 +69,6 @@ elif [[ "$OSTYPE" == "freebsd"* ]]; then
 else
     echo "Unidentified OS, can't install dependencies"
 fi
+
+echo "Install Neovim and LunarVim"
+/bin/bash -c "$(curl -s https://raw.githubusercontent.com/ChristianChiarulli/lunarvim/master/utils/installer/install.sh)"

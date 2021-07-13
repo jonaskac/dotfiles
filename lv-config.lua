@@ -9,14 +9,14 @@ an executable
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 -- general
 O.format_on_save = true
-O.auto_complete = true
-O.colorscheme = "spacegray"
+O.colorscheme = "lunar"
 O.auto_close_tree = 0
 O.wrap_lines = false
 O.timeoutlen = 100
 O.leader_key = " "
 O.ignore_case = true
 O.smart_case = true
+O.relative_number = true
 
 -- TODO User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
@@ -43,6 +43,8 @@ O.lang.python.analysis.use_library_code_types = true
 
 -- javascript
 O.lang.tsserver.linter = nil
+O.lang.tsserver.formatter = "prettier"
+O.lang.tsserver.autoformat = true
 
 -- Additional Plugins
 -- O.user_plugins = {

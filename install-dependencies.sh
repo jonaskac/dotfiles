@@ -21,6 +21,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 
     # Programming languages & tools
     brew install n
+    brew install go 
 
     # Communication
     brew upgrade --cask slack

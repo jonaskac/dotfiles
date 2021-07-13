@@ -26,15 +26,18 @@ git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --grap
 git config --global alias.type 'cat-file -t'
 git config --global alias.dump 'cat-file -p'
 
-echo "Adding some git configurations"
-echo "Name: "
-read name
-echo "Email: "
-read email
+if ( ! (git config --global --get user.name &> /dev/null) )
+then
+  echo "Adding some git configurations"
+  echo "Name: "
+  read name
+  echo "Email: "
+  read email
 
-git config --global user.name $name
-git config --global user.email $email
-git config --global pull.rebase true
+  git config --global user.name $name
+  git config --global user.email $email
+  git config --global pull.rebase true
+fi
 
 echo "
 Things to install after installation:
@@ -49,5 +52,5 @@ starship init fish | source
 set -xg GPG_TTY (tty)
 
 Possible issues:
-* We have seen issues where we don't get the correct permissions in /usr/local, run this command to solve this: "sudo chown -R (whoami) /usr/local"
+* We have seen issues where we don't get the correct permissions in /usr/local, run this command to solve this: "sudo chown -R $(whoami) /usr/local"
 "

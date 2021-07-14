@@ -9,7 +9,7 @@ an executable
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 -- general
 O.format_on_save = true
-O.colorscheme = "lunar"
+O.colorscheme = "spacegray"
 O.auto_close_tree = 0
 O.wrap_lines = false
 O.timeoutlen = 100
@@ -21,9 +21,6 @@ O.relative_number = true
 -- TODO User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
 O.plugin.dashboard.active = true
-O.plugin.colorizer.active = false
-O.plugin.ts_playground.active = false
-O.plugin.indent_line.active = false
 O.plugin.zen.active = false
 
 -- dashboard
@@ -31,7 +28,7 @@ O.plugin.zen.active = false
 -- O.dashboard.footer = {""}
 
 -- if you don't want all the parsers change this to a table of the ones you want
-O.treesitter.ensure_installed = {}
+O.treesitter.ensure_installed = {"typescript", "bash", "css", "html", "yaml", "dockerfile", "json", "graphql"}
 O.treesitter.ignore_install = { "haskell" }
 O.treesitter.highlight.enabled = true
 

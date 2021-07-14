@@ -25,27 +25,27 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install yarn
 
     # Communication
-    brew upgrade --cask slack
-    brew upgrade --cask messenger
-    brew upgrade --cask microsoft-teams
+    brew install --cask slack
+    brew install --cask messenger
+    brew install --cask microsoft-teams
 
     # Browsers
-    brew upgrade --cask google-chrome
-    brew upgrade --cask firefox
+    brew install --cask google-chrome
+    brew install --cask firefox
 
     ## VSCode
-    brew upgrade --cask vscodium
+    brew install --cask vscodium
 
     # Terminal
-    brew upgrade --cask iterm2
+    brew install --cask iterm2
     brew install fish
     brew install starship
     brew tap homebrew/cask-fonts
-    brew upgrade --cask font-hack-nerd-font
+    brew install --cask font-hack-nerd-font
 
     # Tools
     brew install gpg
-    brew upgrade --cask google-drive
+    brew install --cask google-drive
     brew install htop
     brew install sourcetree
 

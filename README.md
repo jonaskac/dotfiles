@@ -1,13 +1,9 @@
 # MY DOTFILES
 
-## Thought
+To install run `./install.sh`
 
-As of the time of writing (2021-05-04), I can't manage to get code completion to work as it should. Which has become a deal breaker for me.
-Neo Vim could be a perfect solution, love the searching functionality, the speed. But the completion need to work properly before moving on.
+To update run `./upgrade.sh`
 
-Base for installing for a development computer.
-
-To install the dotfiles go into the directory and run `./install.sh`.
 
 References:
 
@@ -19,29 +15,19 @@ References:
 
 ## Not added in installation yet
 
-- Add this to your bash, fish or zsh file
-
-```bash
-export FZF_DEFAULT_OPTS='-m --height 50% --layout=reverse --border'
-
-if type rg &> /dev/null; then
-  export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
-fi
-```
-
 # TODO:
 
 ## Installation
 
-- [ ] [Git shortcuts/aliases](https://githowto.com/aliases)
 - [ ] Interactive installation script (when we run the installation we should get some options)
 - [ ] Fig for installations: [FIG](https://github.com/wincent/wincent/tree/master/fig)
-- [ ] On installation script run it should run the command "PlugInstall" in vim, and install the dependencies in Coc
 - [ ] https://www.gnu.org/software/stow/
+- [x] [Git shortcuts/aliases](https://githowto.com/aliases)
+- [x] On installation script run it should run the command "PackerInstall" in vim
 
 ## Shell
 
-- [ ] Zsh & bash installations
+- [ ] Zsh & bash & starship installations
   - [ ] [Fish shell](https://fishshell.com/)
 - [ ] [FZF](https://github.com/jorgebucaran/fisher)
 - [ ] Add installation of the [LunarVim dependencies](https://github.com/ChristianChiarulli/LunarVim/blob/master/utils/installer/install.sh)

@@ -16,7 +16,7 @@ O.timeoutlen = 100
 O.leader_key = " "
 O.ignore_case = true
 O.smart_case = true
-O.relative_number = true
+O.default_options.relativenumber = true
 
 -- TODO User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile

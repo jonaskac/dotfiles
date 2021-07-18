@@ -32,6 +32,10 @@ O.treesitter.ensure_installed = {"typescript", "bash", "css", "html", "yaml", "d
 O.treesitter.ignore_install = { "haskell" }
 O.treesitter.highlight.enabled = true
 
+-- lua
+O.lang.lua.autoformat = true
+O.lang.lua.formatter = 'lua-format'
+
 -- python
 -- O.python.linter = 'flake8'
 O.lang.python.isort = true

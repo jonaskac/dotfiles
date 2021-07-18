@@ -17,6 +17,7 @@ O.leader_key = " "
 O.ignore_case = true
 O.smart_case = true
 O.default_options.relativenumber = true
+O.completion.autocomplete = true
 
 -- TODO User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
@@ -43,8 +44,8 @@ O.lang.python.diagnostics.virtual_text = true
 O.lang.python.analysis.use_library_code_types = true
 
 -- javascript
-O.lang.tsserver.linter = nil
 O.lang.tsserver.formatter = "prettier"
+O.lang.tsserver.linter = nil
 O.lang.tsserver.autoformat = true
 
 -- Additional Plugins

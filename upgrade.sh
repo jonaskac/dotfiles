@@ -14,14 +14,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
   brew upgrade
 
   # Update LunarVim
-  cd ~/.config/nvim && git pull && cd - 
-  nvim --headless \
-          +'autocmd User PackerComplete sleep 100m | qall' \
-          +PackerUpdate
-
-  nvim --headless \
-          +'autocmd User PackerComplete sleep 100m | qall' \
-          +PackerSync
+  ./install-lunarvim.sh
 
 elif [[ "$OSTYPE" == "cygwin" ]]; then
   echo "Updating cygwin dependencies"

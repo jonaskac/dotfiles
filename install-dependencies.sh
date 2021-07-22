@@ -72,9 +72,4 @@ else
     echo "Unidentified OS, can't install dependencies"
 fi
 
-echo "Install Neovim and LunarVim"
-/bin/bash -c "$(curl -s https://raw.githubusercontent.com/ChristianChiarulli/lunarvim/master/utils/installer/install.sh)"
-
-echo "Install our LunarVim config"
-[ -f ~/.config/nvim/lv-config.lua ] && rm ~/.config/nvim/lv-config.lua
-ln -s $PWD/lv-config.lua ~/.config/nvim/lv-config.lua
+./install-lunarvim.sh

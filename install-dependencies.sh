@@ -49,6 +49,9 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install htop
     brew install sourcetree
 
+    # Misc
+    brew install spotify --cask
+
 elif [[ "$OSTYPE" == "cygwin" ]]; then
     echo "Installing cygwing dependencies"
     # TODO: POSIX compatibility layer and Linux environment emulation for Windows

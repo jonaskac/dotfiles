@@ -8,44 +8,47 @@ an executable
 ]]
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 -- general
-O.format_on_save = true
-O.colorscheme = "spacegray"
-O.auto_close_tree = 0
-O.wrap_lines = false
-O.timeoutlen = 100
-O.leader_key = " "
-O.ignore_case = true
-O.smart_case = true
-O.default_options.relativenumber = true
+lvim.format_on_save = true
+lvim.colorscheme = "spacegray"
+lvim.auto_close_tree = 0
+lvim.wrap_lines = false
+lvim.timeoutlen = 100
+lvim.leader_key = " "
+lvim.ignore_case = true
+lvim.smart_case = true
+vim.opt.relativenumber = true
 
 -- TODO User Config for predefined plugins
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
-O.plugin.dashboard.active = true
-O.plugin.zen.active = false
+lvim.builtin.dashboard.active = true
+lvim.builtin.terminal.active = true
+lvim.builtin.nvimtree.side = "left"
+lvim.builtin.nvimtree.show_icons.git = 0
+
 
 -- dashboard
 -- O.dashboard.custom_header = {""}
 -- O.dashboard.footer = {""}
 
 -- if you don't want all the parsers change this to a table of the ones you want
-O.treesitter.ensure_installed = {"typescript", "bash", "css", "html", "yaml", "dockerfile", "json", "graphql"}
-O.treesitter.ignore_install = { "haskell" }
-O.treesitter.highlight.enabled = true
+lvim.builtin.treesitter.ensure_installed = {"typescript", "bash", "css", "html", "yaml", "dockerfile", "json", "graphql"}
+lvim.builtin.treesitter.ignore_install = { "haskell" }
+lvim.builtin.treesitter.highlight.enabled = true
 
 -- lua
-O.lang.lua.autoformat = true
-O.lang.lua.formatter = 'lua-format'
+-- lvim.lang.lua.autoformat = true
+-- lvim.lang.lua.formatter = 'lua-format'
 
 -- python
 -- O.python.linter = 'flake8'
-O.lang.python.isort = true
-O.lang.python.diagnostics.virtual_text = true
-O.lang.python.analysis.use_library_code_types = true
+-- lvim.lang.python.isort = true
+-- lvim.lang.python.diagnostics.virtual_text = true
+-- lvim.lang.python.analysis.use_library_code_types = true
 
 -- javascript
 -- O.lang.tsserver.formatter.exe = "prettier" -- This requires `npm i -g prettier`, this will be removed moving forward in LunarVim
-O.lang.tsserver.linter = "eslint"
-O.lang.tsserver.autoformat = true
+-- lvim.lang.tsserver.linter = "eslint"
+-- lvim.lang.tsserver.autoformat = true
 
 -- Additional Plugins
 -- O.user_plugins = {

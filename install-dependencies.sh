@@ -24,6 +24,10 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install go 
     brew install yarn
 
+    # NVIM
+    brew install --HEAD luajit
+    brew install --HEAD neovim
+
     # Communication
     brew install --cask slack
     brew install --cask messenger

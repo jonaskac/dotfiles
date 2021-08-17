@@ -51,6 +51,28 @@ Add the following to ~/.config/fish/config.fish
 starship init fish | source
 set -xg GPG_TTY (tty)
 
+Lunar Vim Specific:
+
+Open Lunar Vim 
+
+> `lvim`
+
+Language Server
+
+> `LspInstall go`
+> `LspInstall typescript`
+> `LspInstall vim`
+> `LspInstall dockerfile`
+> `LspInstall rust`
+> `LspInstall bash`
+> `LspInstall css`
+> `LspInstall efm`
+> `LspInstall lua`
+> `LspInstall graphql`
+> `LspInstall yaml`
+> `LspInstall html`
+> `LspInstall json`
+
 Possible issues:
 * We have seen issues where we don't get the correct permissions in /usr/local, run this command to solve this: "sudo chown -R $(whoami) /usr/local"
 "

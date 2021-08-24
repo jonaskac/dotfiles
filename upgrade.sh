@@ -12,6 +12,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
   brew update
   brew outdated # Shows a list of outdated dependencies
   brew upgrade
+  brew upgrade --cask
 
   # Update LunarVim
   ./install-lunarvim.sh

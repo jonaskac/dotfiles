@@ -1,4 +1,6 @@
 --[[
+LunarVim config by @jonaskac 
+
 O is the global options object
 
 Linters should be

@@ -75,4 +75,8 @@ Language Server
 
 Possible issues:
 * We have seen issues where we don't get the correct permissions in /usr/local, run this command to solve this: "sudo chown -R $(whoami) /usr/local"
+
+In Codium and VSCode holding j & k might not work, run this command in the terminal to make it work:
+
+> defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool falsedefaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 "

@@ -41,7 +41,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     brew install --cask firefox
 
     ## VSCode
-    brew install --cask vscodium
+    brew install --cask visual-studio-code
 
     # Terminal
     brew install --cask iterm2

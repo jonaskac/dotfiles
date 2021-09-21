@@ -4,6 +4,9 @@ To install run `./install.sh`
 
 To update run `./upgrade.sh`
 
+Run the following command on installation of Codium with Vim so that we can use navigation properly:
+
+> defaults write com.visualstudio.code.oss ApplePressAndHoldEnabled -bool false
 
 References:
 

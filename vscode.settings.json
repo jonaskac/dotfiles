@@ -54,7 +54,7 @@
     {
       "before": ["<leader>", "q"],
       "commands": ["workbench.action.closeActiveEditor"]
-    }
+    },
     {
       "before": ["<leader>"],
       "commands": ["whichkey.show"]

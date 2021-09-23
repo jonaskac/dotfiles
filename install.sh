@@ -26,8 +26,10 @@ git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --grap
 git config --global alias.type 'cat-file -t'
 git config --global alias.dump 'cat-file -p'
 
-if ( ! (git config --global --get user.name &> /dev/null) )
+if ( git config --global --get user.name &> /dev/null )
 then
+  echo "User already exists"
+else
   echo "Adding some git configurations"
   echo "Name: "
   read name
@@ -55,26 +57,26 @@ Lunar Vim Specific:
 
 Open Lunar Vim 
 
-> `lvim`
+> 'lvim'
 
 Language Server
 
-> `LspInstall go`
-> `LspInstall typescript`
-> `LspInstall vim`
-> `LspInstall dockerfile`
-> `LspInstall rust`
-> `LspInstall bash`
-> `LspInstall css`
-> `LspInstall efm`
-> `LspInstall lua`
-> `LspInstall graphql`
-> `LspInstall yaml`
-> `LspInstall html`
-> `LspInstall json`
+> 'LspInstall go'
+> 'LspInstall typescript'
+> 'LspInstall vim'
+> 'LspInstall dockerfile'
+> 'LspInstall rust'
+> 'LspInstall bash'
+> 'LspInstall css'
+> 'LspInstall efm'
+> 'LspInstall lua'
+> 'LspInstall graphql'
+> 'LspInstall yaml'
+> 'LspInstall html'
+> 'LspInstall json'
 
 Possible issues:
-* We have seen issues where we don't get the correct permissions in /usr/local, run this command to solve this: "sudo chown -R $(whoami) /usr/local"
+* We have seen issues where we don't get the correct permissions in /usr/local, run this command to solve this: 'sudo chown -R $(whoami) /usr/local'
 
 In Codium and VSCode holding j & k might not work, run this command in the terminal to make it work:
 

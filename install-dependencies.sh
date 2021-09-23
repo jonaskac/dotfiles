@@ -18,6 +18,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 
     # Kubernetes
     brew install k9s
+    brew install kind
 
     # Cloud
     brew install google-cloud-sdk
